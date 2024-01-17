@@ -10,6 +10,6 @@ def about_me(request):
     
     return render (
         request,
-        "About/about.html",
+        "about/about.html",
         {"about": about},
     )
